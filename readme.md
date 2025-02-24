@@ -12,7 +12,7 @@ We use public datasets from hugging face and kaggle.
 - https://huggingface.co/datasets/Grandediw/clash-royale-battle
 
 ## How to run this project
-'''bash
+'''
 python train.py
 '''
 
