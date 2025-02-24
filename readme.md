@@ -12,7 +12,9 @@ We use public datasets from hugging face and kaggle.
 - https://huggingface.co/datasets/Grandediw/clash-royale-battle
 
 ## How to run this project
-run python train.py
+'''bash
+python train.py
+'''
 
 ## Features
 - We found popular card decks using a clustering algorithm. 
