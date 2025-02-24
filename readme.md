@@ -11,6 +11,11 @@ We use public datasets from hugging face and kaggle.
 - https://www.kaggle.com/datasets/tristanwassner/clash-royale-s18-ladder-datasets-for-prediction/
 - https://huggingface.co/datasets/Grandediw/clash-royale-battle
 
+## How to run this project
+'''bash
+python train.py
+'''
+
 ## Features
 - We found popular card decks using a clustering algorithm. 
 - Matches are also categorized into clusters. 
