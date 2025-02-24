@@ -13,7 +13,9 @@ We use public datasets from hugging face and kaggle.
 
 ## How to run this project
 '''
+'''
 python train.py
+'''
 '''
 
 ## Features
