@@ -7,7 +7,7 @@ the game environment based on popular card decks as well as match win rates. The
 report is saved in Google slides. 
 
 ## Datasets
-We use public datasets from hugging facd and kaggle.
+We use public datasets from hugging face and kaggle.
 - https://www.kaggle.com/datasets/tristanwassner/clash-royale-s18-ladder-datasets-for-prediction/
 - https://huggingface.co/datasets/Grandediw/clash-royale-battle
 
