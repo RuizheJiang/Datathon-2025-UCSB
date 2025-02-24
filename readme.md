@@ -6,7 +6,15 @@ Hence, we obtained 3.7 million Clash Royale match results. Our goal is to predic
 the game environment based on popular card decks as well as match win rates. The script folder contains the code we wrote to generate the results, and the 
 report is saved in Google slides. 
 
+## Datasets
+We use public datasets from hugging facd and kaggle.
+- https://www.kaggle.com/datasets/tristanwassner/clash-royale-s18-ladder-datasets-for-prediction/
+- https://huggingface.co/datasets/Grandediw/clash-royale-battle
+
 ## Features
 - We found popular card decks using a clustering algorithm. 
 - Matches are also categorized into clusters. 
 - We developed a three-layer attention architecture that leverages one-hot encoded card features to capture the intricate interplay between cards in a deck.
+
+## Future Work
+We plan to explore more advanced multi-head, multi-layer attention mechanisms tailored to this task to further enhance performance. Additionally, we aim to deepen our research into model interpretability, striving to provide comprehensive explanations both at a local (individual prediction) level and globally, to fully understand and articulate how our model makes its decisions.
