@@ -13,6 +13,15 @@ We use public datasets from hugging face and kaggle.
 
 ## How to run this project
 ```
+conda create -n pytorch python=3.10
+pip3 install torch torchvision torchaudio
+pip install matplotlib
+pip install kmedoids
+pip install scikit-learn
+pip install pandas
+pip install datasets
+pip install opencv-python
+pip install difflib
 python train.py
 ```
 
